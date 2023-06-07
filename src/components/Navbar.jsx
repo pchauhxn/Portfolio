@@ -5,9 +5,6 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaLinkedinIn,
-  FaMailBulk,
 } from 'react-icons/fa';
 import Logo from '../assets/logo.jpg';
 import { HiOutlineMail } from 'react-icons/hi';
@@ -20,7 +17,7 @@ const Navbar = () => {
     <>
       <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-gray-300' >
         <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '150px' }} />
+        <img src={Logo} alt='Logo' style={{ width: '150px' }} />
         </div>
           <ul className='hidden md:flex'>
           <li>
